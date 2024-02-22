@@ -1,18 +1,30 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
     <title>A website</title>
     <style>
-        .text {
+        select {
+            margin: 0 auto;
+            display: block;
+            width: 200px;
+            font-size: 16px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        h1 {
             text-align: center;
         }
+        body{
+            background-color: lightblue;
+        }
+   
     </style>
 </head>
 <body>
     <h1>AP Human Geography</h1>
-    <select class="text" onchange="navigateToPage(this)">
+    <select onchange="navigateToPage(this)">
         <option>unit 1</option>
         <option value="Vocabunit2.html">unit 2</option>
         <option value="Vocabunit3.html">unit 3</option>
