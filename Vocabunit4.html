@@ -1,9 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
 </head>
 <body>
     <table>
@@ -91,6 +92,11 @@
             <td>When a place has lost it’s uniqueness of place in the cultural landscape.</td>
         </tr>
     </table>
-    <a href="HTMLPage1.html">Back</a>
+    <button onclick="goToPage()">Back</button>
+    <script>
+    function goToPage() {
+        window.location.href = 'HTMLPage1.html';
+    }
+    </script>
 </body>
 </html>
