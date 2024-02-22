@@ -1,9 +1,16 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
     <title></title>
+<style>
+    table {
+        margin: auto;
+    }
+
+</style>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" /> 
 </head>
 <body>
     <table border="1">
@@ -107,6 +114,11 @@
         </tr>
 
     </table>
-    <a href="HTMLPage1.html">Back</a>
+    <button onclick="goToPage()">Back</button>
+    <script>
+        function goToPage() {
+            window.location.href = 'HTMLPage1.html';
+        }
+    </script>
 </body>
 </html>
